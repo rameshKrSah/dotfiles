@@ -1,3 +1,9 @@
+
+" setting the runtime path to the vimfiles folder
+set nocp
+set runtimepath+=C:\Users\rames\vimfiles\autoload
+call pathogen#infect()	"calling the pathogen plugin, plugins automatically called and loaded 
+
 set ruler " display line number and column number in bottom rule
 
 set number " display line number
@@ -16,11 +22,8 @@ set smartcase  " activate case-insensitive & smart case search
 
 syntax enable " activate syntax highlighting
 
-set tabstop=4 " set tab to 4 spaces
-
-set autoindent " auto indenting for files 
-
-
+set textwidth=120
+set colorcolumn=+1	" set character limit of 120 per line
 
 
 " Setting some decent VIM settings for programming
