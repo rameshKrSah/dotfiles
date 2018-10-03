@@ -1,4 +1,4 @@
-
+" Using plugins ctrlp, nerdtree, supertab, tcomment, vim-pasta, zoomwin
 " setting the runtime path to the vimfiles folder
 set nocp
 set runtimepath+=C:\Users\rames\vimfiles\autoload
