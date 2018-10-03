@@ -1,7 +1,7 @@
 " Using plugins ctrlp, nerdtree, supertab, tcomment, vim-pasta, zoomwin
 " setting the runtime path to the vimfiles folder
 set nocp
-set runtimepath+=C:\Users\rames\vimfiles\autoload
+" set runtimepath+=C:\Users\rames\vimfiles\autoload
 call pathogen#infect()	"calling the pathogen plugin, plugins automatically called and loaded 
 
 set ruler " display line number and column number in bottom rule
